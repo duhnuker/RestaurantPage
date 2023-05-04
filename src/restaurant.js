@@ -1,5 +1,3 @@
-
-
 const createRestaurantHomePage = () => {
     const content = document.querySelector("#content");
     const pageContent = document.createElement('div');
@@ -8,6 +6,7 @@ const createRestaurantHomePage = () => {
     const heading = document.createElement('h1');
     heading.textContent = 'Ruby Pearl Roadhouse';
     pageContent.appendChild(heading);
+    content.appendChild(pageContent);
 }
 
 export default createRestaurantHomePage;

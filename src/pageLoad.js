@@ -1,4 +1,4 @@
-import createRestaurantHomePage from './restaurant'
+import createRestaurantHomePage from './restaurant';
 
 
 function initialLoad() {
