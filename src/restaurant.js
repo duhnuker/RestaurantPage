@@ -9,7 +9,7 @@ const createRestaurantHomePage = () => {
     headContainer.classList.add('head-container');
     pageContent.appendChild(headContainer);
     const heading = document.createElement('h1');
-    heading.textContent = 'Ruby Pearl Diner';
+    heading.textContent = 'Ruby Pearl';
     headContainer.appendChild(heading);
 
 
@@ -19,14 +19,6 @@ const createRestaurantHomePage = () => {
     const aboutText = document.createElement('p');
     aboutText.textContent = 'Welcome ';
     aboutContainer.appendChild(aboutText);
-
-    const imgContainer = document.createElement('div');
-    const restaurantimg = document.createElement('img');
-    restaurantimg.src = "../src/assets/imgs/restaurantimg.jpg";
-    restaurantimg.classList.add('restImg');
-    imgContainer.appendChild(restaurantimg);
-    imgContainer.classList.add('img-container');
-    pageContent.appendChild(imgContainer);
 
     const footerContainer = document.createElement('div');
     footerContainer.classList.add('footer-container');

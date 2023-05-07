@@ -10,34 +10,51 @@ body {
     font-family: 'IBM Plex Serif', serif;
 }
 
+#content {
+    background-image: url("../src/assets/imgs/restaurantimg.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-position: 25% 75%;
+}
+
+#home-btn, #menu-btn, #contact-btn {
+    cursor: pointer;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: 2px underline;
+    color: rgba(255, 255, 255, 0.829);
+}
+
+#contact-btn {
+    margin-bottom: 20px;
+}
+
 .head-container {
     display: flex;
     justify-content: center;
+    background-color: rgba(0, 0, 0, 0.301);
+    padding-bottom: 200px;
+    padding-top: 200px;
+    width: 100vw;
 }
 
 h1 {
-    color: rgb(141, 44, 44);
-    margin-top: 20px;
+    color: rgb(138, 5, 5);
+    font-size: 10rem;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .about-container {
     display: flex;
     justify-content: center;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     margin-top: 20px;
     font-style: italic;
-}
-
-.img-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-}
-
-.restImg {
-    height: 300px;
-    width: 100vw;
-    opacity: 60%;
+    color: rgba(255, 255, 255, 0.829);
 }
 
 .footer-container {
