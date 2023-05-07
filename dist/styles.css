@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@400;700&display=swap');
 
 * {
     margin: 0;
+    font-family: 'Martel', serif;
 }
 
 body {
     background-color: black;
     color: white;
-    font-family: 'IBM Plex Serif', serif;
 }
 
 #content {
@@ -19,23 +19,20 @@ body {
 
 #home-btn, #menu-btn, #contact-btn {
     cursor: pointer;
-    padding-top: 10px;
-    display: flex;
-    justify-content: center;
-    font-size: 1.3rem;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
     font-weight: bold;
     text-decoration: 2px underline;
     color: rgba(255, 255, 255, 0.829);
 }
 
-#contact-btn {
-    margin-bottom: 20px;
-}
-
 .head-container {
     display: flex;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.301);
+    background-color: rgba(0, 0, 0, 0.329);
     padding-bottom: 200px;
     padding-top: 200px;
     width: 100vw;
@@ -50,11 +47,19 @@ h1 {
 
 .about-container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    text-align: center;
     font-size: 1.4rem;
     margin-top: 20px;
     font-style: italic;
-    color: rgba(255, 255, 255, 0.829);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.226);
+}
+
+.about-welcome {
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-top: 40px;
 }
 
 .footer-container {
