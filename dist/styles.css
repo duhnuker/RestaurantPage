@@ -80,31 +80,32 @@ h1 {
 h2 {
     color: rgb(138, 5, 5);
     font-size: 5rem;
+    text-decoration: underline;
 }
 
 .menu-img-container {
-    border-top: 5px dotted rgb(138, 5, 5);
     display: flex;
     justify-content: center;
 }
 
 .dish1 {
-    margin-top: 20px;
     height: 300px;
     width: 400px;
 }
 
-.dish1-title {
+.dish1-title, .dish2-title, .dish3-title {
     font-size: 2rem;
-    color: white;
+    font-weight: bold;
 }
 
 .dish2 {
+    margin-top: 20px;
     height: 500px;
     width: 350px;
 }
 
 .dish3 {
+    margin-top: 20px;
     height: 500px;
     width: 350px;
 }

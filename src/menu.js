@@ -25,7 +25,7 @@ const createRestaurantHomePage = () => {
     dish1.src = '../src/assets/imgs/dish1.jpg';
     dish1ImgContainer.appendChild(dish1);
     const dish1Title = document.createElement('p');
-    dish1Title.textContent = 'Wagyu Steak and Chips';
+    dish1Title.textContent = 'Ruby Pearl Steak and Chips';
     dish1Title.classList.add('dish1-title');
     dish1ImgContainer.appendChild(dish1Title);
     const dish1Text = document.createElement('p');
@@ -41,7 +41,7 @@ const createRestaurantHomePage = () => {
     dish2.src = '../src/assets/imgs/dish2.jpg';
     dish2ImgContainer.appendChild(dish2);
     const dish2Title = document.createElement('p');
-    dish2Title.textContent = 'Meat Set';
+    dish2Title.textContent = 'Ruby Pearl Set';
     dish2Title.classList.add('dish2-title');
     dish2ImgContainer.appendChild(dish2Title);
     const dish2Text = document.createElement('p');
@@ -57,7 +57,7 @@ const createRestaurantHomePage = () => {
     dish3.src = '../src/assets/imgs/dish3.jpg';
     dish3ImgContainer.appendChild(dish3);
     const dish3Title = document.createElement('p');
-    dish3Title.textContent = 'Red Pearl Ribs';
+    dish3Title.textContent = 'Ruby Pearl Ribs';
     dish3Title.classList.add('dish3-title');
     dish3ImgContainer.appendChild(dish3Title);
     const dish3Text = document.createElement('p');
