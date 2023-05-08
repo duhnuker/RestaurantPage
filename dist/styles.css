@@ -109,3 +109,46 @@ h2 {
     height: 500px;
     width: 350px;
 }
+
+/* ContactPage */
+
+.contact-container {
+    text-align: center;
+}
+
+h3 {
+    color: rgb(138, 5, 5);
+    font-size: 6rem;
+    text-decoration: underline;
+    padding-top: 200px;
+    background-color: rgba(0, 0, 0, 0.582);
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.582);
+    padding-top: 50px;
+    padding-bottom: 250px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.full-name, .email, .submit {
+    padding: 20px;
+}
+
+.input-ask {
+    padding: 80px 120px;
+}
